@@ -14,12 +14,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@strings/labelResult" />
+        android:text="@string/labelResult"
+        android:textSize="100sp"/>
 
     <Button
         android:id="@+id/roll_button"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/roll_label" />
+        android:background="#3F51B5"
+        android:backgroundTint="#F44336"
+        android:text="@string/roll_label"
+        app:cornerRadius="20pt"
+        app:strokeColor="#DF1515"
+        app:strokeWidth="20pt" />
 </LinearLayout>
